@@ -1,5 +1,5 @@
 # ipinfo
-Query IP information API for terminal.
+Querying IP information API for terminal.
 
 ## Install
 
