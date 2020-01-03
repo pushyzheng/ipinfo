@@ -1,32 +1,32 @@
 # ipinfo
-Query IP information API for Go
+Query IP information API for terminal.
 
 ## Install
 
-Firstly,  ensure your Go version is above 1.12, then build `ipinfo.go`, you can install in Linux:
+Firstly,  make ensure your Go version is above 1.12, then build `ipinfo.go` file. So you can install in Linux:
 
 ```shell
 $ sudo go build ipinfo.go
 $ sudo mv ipinfo /usr/bin
 ```
 
-In Windows, please add `ipinfo-master` add your environment variable.
+In Windows, you need to add the path of `ipinfo` to your environment variables after compilation.
 
 ## Usage
 
-Query the location of IP：
+Querying the location of the IP:
 
 ```shell
-# query local machine IP location
+# querying the local machine IP location
 $ ipinfo myip
 or 
 $ ipinfo
 
-# query specified IP location
+# querying the specified IP location
 $ ipinfo 220.181.38.148
 ```
 
-Query the domain name bound by IP：
+Querying the domain name bound to the IP:
 
 ```shell
 $ ipinfo -r 220.181.38.148
