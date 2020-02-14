@@ -3,7 +3,7 @@ Querying IP information API for terminal.
 
 ## Install
 
-Firstly,  make ensure your Go version is above 1.12, then build `ipinfo.go` file. So you can install in Linux:
+Firstly,  make ensure your Go version is above 1.12, then build `ipinfo.go` file. So you can install it in Linux:
 
 ```shell
 $ sudo go build ipinfo.go
